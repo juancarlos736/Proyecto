@@ -5,18 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Jugar : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    public void play()
     {
-        public void Jugar() {
-            SceneManagement.LoadScene();
-        }
-        
+        //SceneManagement.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void exit()
     {
-        
+        Debug.Log("Salir...");
+        //SceneManagement.LoadScene(0);
     }
+
+   
 }
