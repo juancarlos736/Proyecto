@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3) Opcion 3
+  m_text: "3) Te pones a llorar \r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8f7ab0e326527c4d9822a726129971e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a3438b496f7c66f49adc51412419a293, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -396,7 +396,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2) Opcion 2
+  m_text: '2) Esperas pacientemente
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -556,7 +558,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 393861220}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1538292082}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 115879106}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &393861220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,7 +862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.00001, y: 0}
+  m_AnchoredPosition: {x: -95.00001, y: -15.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &469177761
@@ -859,8 +885,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Problematica 1 Lorem Ipsum es simplemente \nel texto de relleno de las
-    imprentas y archivos \nde texto. Lorem"
+  m_text: "Deseas salir a una fiesta y tus padres no te dan \npermiso para salir
+    porque el lugar de la fiesta es \nmuy peligroso."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -995,7 +1021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3) Opcion 3
+  m_text: "3) Aceptas la decisi\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -1130,7 +1156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1) Opcion 1
+  m_text: '1) Vas de todos modos '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -1290,7 +1316,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 604262665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1538292082}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1808429348}
+        m_TargetAssemblyTypeName: Jugar, Assembly-CSharp
+        m_MethodName: play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &604262665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,7 +1437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2) Opcion 2
+  m_text: '2) Mientes para poder ir '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3157,7 +3207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3) Opcion 3
+  m_text: "3) Ocultas tu m\xFAsica\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3269,7 +3319,7 @@ RectTransform:
   - {fileID: 1457535635}
   - {fileID: 1315053477}
   m_Father: {fileID: 1808429347}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3296,7 +3346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 011ffacc16c4d8845b45765b92bfe2b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46e155ee8be619045983c7cea2d0137a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3471,7 +3521,7 @@ RectTransform:
   - {fileID: 1703190636}
   - {fileID: 604262663}
   m_Father: {fileID: 1808429347}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3498,7 +3548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e4647e8adea76584591fc4fb6d5398f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa296a464f9b47843aeeaa22b5624786, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3574,7 +3624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2) Opcion 2
+  m_text: "2) Le pegas a tu hermana \r\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3709,7 +3759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1) Opcion 1
+  m_text: "1) Les gritas  \r\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3821,7 +3871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.00001, y: 0}
+  m_AnchoredPosition: {x: -95.00001, y: -17}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1594576276
@@ -3844,8 +3894,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Problematica 1 Lorem Ipsum es simplemente \nel texto de relleno de las
-    imprentas y archivos \nde texto. Lorem"
+  m_text: "Deseas ayuda de tus padres en un trabajo que \nte fue mal, pero ellos
+    no tienen tiempo para \nverlo "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3980,7 +4030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1) Opcion 1
+  m_text: "1) Respetas su opini\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -4140,7 +4190,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1696923513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 115879106}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1435617471}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1696923513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4478,9 +4552,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1435617472}
-  - {fileID: 115879107}
   - {fileID: 1538292083}
+  - {fileID: 115879107}
+  - {fileID: 1435617472}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4536,7 +4610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.00001, y: 0}
+  m_AnchoredPosition: {x: -95.00001, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957179488
@@ -4559,8 +4633,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Problematica 1 Lorem Ipsum es simplemente \nel texto de relleno de las
-    imprentas y archivos \nde texto. Lorem"
+  m_text: "Le comentas a tu hermana que hay un nuevo \nartista que te gusta, pero
+    ella se comienza a \nre\xEDrse de ti "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
