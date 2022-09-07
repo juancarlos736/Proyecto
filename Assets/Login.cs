@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
@@ -15,6 +16,18 @@ public class Login : MonoBehaviour
         datos[0] = usuario.text;
         datos[1] = contrasenia.text;
 
-        StartCoroutine(servidor.ConsumirServicio("login",datos));
+        StartCoroutine(servidor.ConsumirServicio("login",datos, PosCargar));
+        
+    }
+
+    void PosCargar(){
+        switch (servidor.respuesta.codigo){
+            case 0:
+                puntos.puntaje=servidor.respuesta.codigo;
+                SceneManager.LoadScene(1);
+                break;
+                      
+        }
+            
     }
 }

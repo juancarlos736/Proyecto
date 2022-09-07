@@ -6,9 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class ir2 : MonoBehaviour
 {
+    public Text textScore;
    private void OnTriggerEnter2D(Collider2D collision){
-        if (collision.tag == "Player"){
-           SceneManager.LoadScene(2);
+        if (collision.tag == "Player" &&  puntos.puntaje > 0){
+            if(puntos.puntaje == 1){
+               puntos.puntaje = puntos.puntaje + 1;
+            }
+            textScore.text = puntos.puntaje.ToString();
+            SceneManager.LoadScene(3);
+
         
         }
        

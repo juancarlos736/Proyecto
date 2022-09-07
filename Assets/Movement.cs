@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 public class Movement : MonoBehaviour
 {
     public float speed=2f;
     public float jumpSpeed=4f;
+    public Text textScore;
 
     public Rigidbody2D body;
     // Start is called before the first frame update
     void Start()
     {
+        textScore.text = puntos.puntaje.ToString();
         body= GetComponent<Rigidbody2D>();
     }
 
