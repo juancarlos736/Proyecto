@@ -22,6 +22,14 @@ public class Jugar : MonoBehaviour
         
     }
 
+    public void back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        //SceneManager.LoadScene(1);
+
+    }
+
     public void exit()
     {
         Debug.Log("Salir...");
