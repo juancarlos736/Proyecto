@@ -8,13 +8,14 @@ public class Jugar : MonoBehaviour
     
     public void play()
     {
-        //SceneManagement.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        //SceneManager.LoadScene(0);
     }
 
     public void exit()
     {
         Debug.Log("Salir...");
-        //SceneManagement.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 
    

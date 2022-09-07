@@ -303,7 +303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1) Siguen jugando \r\n"
+  m_text: '1) Te lo gastas golosinas '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -438,8 +438,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vas a jugar futbol con tus amigos, pero a uno \nde tus amigos no le dieron
-    permiso para salir"
+  m_text: "Vas con tus amigos a comprar snaks en la tienda\n y despu\xE9s de comer
+    dejan la basura tirada"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 420eff6e13838734aabaf65e2fe4c808, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 868d5a6c666addd4f8ced8bcc9df03e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -801,7 +801,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420675918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1826741365}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 344603245}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &420675918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,7 +899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -76, y: -17}
+  m_AnchoredPosition: {x: -91, y: -17}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577352866
@@ -898,8 +922,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mientras jugabas futbol con tus amigos \nrompieron el vidrio de la casa
-    del vecino "
+  m_text: "Tus padres te env\xEDan a comprar v\xEDveres para \nla cena a la tienda
+    y al final te sobra dinero "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -1014,7 +1038,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc6497b72e2edd34e9459a00a73a720a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb188cc7623bf0d46ac499c10480c3c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1504,7 +1528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3) Le reclaman a sus padre
+  m_text: "3) Recogen la basura \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -1877,7 +1901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3) Les invitas a tu casa \r"
+  m_text: "3) Compras m\xE1s\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -1965,7 +1989,7 @@ GameObject:
   - component: {fileID: 1160806161}
   - component: {fileID: 1160806162}
   m_Layer: 0
-  m_Name: cancha
+  m_Name: tienda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1980,7 +2004,7 @@ Transform:
   m_GameObject: {fileID: 1160806160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -582.49, y: -299.96, z: 0}
-  m_LocalScale: {x: 1.6863701, y: 1.3416958, z: 1.5873016}
+  m_LocalScale: {x: 0.57968974, y: 0.588669, z: 1.5873016}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1212409374}
@@ -2027,7 +2051,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 718cf814312fe7943a06d7c28a78ad8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e66a1834e5495f4478c9c370efa0d654, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2096,7 +2120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2) Te vas con ellos \r"
+  m_text: "2) Te vas sin pagar \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -2332,7 +2356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1) Van el siguiente d\xEDa\r\n\r\n"
+  m_text: "1) Dejan la basura tirada \r\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -2492,31 +2516,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1259440568}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1826741365}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 344603245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1259440568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2613,8 +2613,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Despu\xE9s de jugar, tus amigos desean ir a beber \nlicor en la esquina
-    de las cachas "
+  m_text: "Vas a la tienda a comprar y al momento de \npagar, el encargado se le
+    olvida cobrarte "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -2749,7 +2749,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1) Dices que no puedes\r"
+  m_text: '1) Le pagas por todo
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -2884,7 +2886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2) Se van a jugar sin \xE9l \r\r\n"
+  m_text: "2) Dicen que fueron otros \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -3019,7 +3021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3) Pagan los da\xF1os \r"
+  m_text: "3) Se lo devuelves a tus padres\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -4574,7 +4576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2) Se van del lugar \r"
+  m_text: "2) Lo guardas para ti \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
   m_sharedMaterial: {fileID: -3847151567330890214, guid: bda43c039c8864e4fa9aac7d3ce90367, type: 2}
@@ -4835,7 +4837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f5a440f8ba69f0468c33cd5339384a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44213e5597dbd1d48b186a7e726cfd4e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

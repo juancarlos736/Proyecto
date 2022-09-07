@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tarjeta1.unity
     guid: 72e3e2cdfd0635b41a944a496e9fd97b
+  - enabled: 1
+    path: Assets/Scenes/Tarjeta2.unity
+    guid: 8c1fd9a6edd0dd44182112312c1e483a
+  - enabled: 1
+    path: Assets/Scenes/Tarjeta3.unity
+    guid: 167a94ff52f7aed468b85866b6bb1bee
+  - enabled: 1
+    path: Assets/Scenes/Tarjeta4.unity
+    guid: c475ef7433192a241b08b090e2f089bb
   m_configObjects: {}
