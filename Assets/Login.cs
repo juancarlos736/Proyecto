@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Login : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Servidor servidor;
+    public InputField usuario;
+    public InputField contrasenia;
 
-    // Update is called once per frame
-    void Update()
+    public void IniciarSesion()
     {
-        
+        string[] datos = new string[2];
+        datos[0] = usuario.text;
+        datos[1] = contrasenia.text;
+
+        StartCoroutine(servidor.ConsumirServicio("login",datos));
     }
 }

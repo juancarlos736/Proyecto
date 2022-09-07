@@ -12,4 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c995b4f2525ef49b7fd0db4b9404f2, type: 3}
   m_Name: Servidor
   m_EditorClassIdentifier: 
-  servidor1: 
+  servidor1: http://localhost/juego
+  servicios:
+  - nombre: l
+    URL: login.php
+    parametros:
+    - 
+    - 
+  - nombre: l2
+    URL: login.php
+    parametros:
+    - 
+    - 
+  - nombre: login
+    URL: login.php
+    parametros:
+    - usuario
+    - contrasenia
+  - nombre: check
+    URL: check.php
+    parametros: []
+  - nombre: registrar usuario
+    URL: registrarUsuario.php
+    parametros:
+    - usuario
+    - contrasenia
+    - nivel
