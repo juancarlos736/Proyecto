@@ -6,7 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Jugar : MonoBehaviour
 {
-    
+
+    public AudioSource Erro1;
+    public AudioSource Caid1;
+    public GameObject Error;
+    public GameObject Acierto;
+
+
     
     public void play()
     {
@@ -20,6 +26,13 @@ public class Jugar : MonoBehaviour
     {
         Debug.Log("Salir...");
         SceneManager.LoadScene(1);
+    }
+
+    public void acierto(){
+        Instantiate(Acierto);
+    }
+    public void error(){
+        Instantiate(Error);
     }
 
    
